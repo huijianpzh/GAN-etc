@@ -15,7 +15,7 @@ The dim of the latent code is set to be 2, and we give the value for z, [-2, 2]x
 
 ### The latent codes of MNIST dataset
 The latent codes are obtained with the MNIST dataset as input.
-The z is computed as """ z = z_mean + torch.exp(z_logvar/2.)*epsilon """.
+The z is computed as ``` z_mean + torch.exp(z_logvar/2.)*epsilon ```.
 
 
 
