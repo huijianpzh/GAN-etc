@@ -8,15 +8,21 @@ Here, we get the reconstructed pictures.
 Meanwhile, the latent space obtained with encoder has been explored.
 The below are the results for them:
 
-### Reconstructed Pictures
-
+### Reconstructed Pictures(original and reconstructed)
+![](https://github.com/huijianpzh/GAN-etc/blob/master/VAE/result/Epoch-100-idx-3750_original_image.png)   ![](https://github.com/huijianpzh/GAN-etc/blob/master/VAE/result/Epoch-100-idx-3750_recon_image_average.png)
+  
+ 
 ### Generated Picture
 The dim of the latent code is set to be 2, and we give the value for z, [-2, 2]x[-2, 2].(using numpy.mgrid to do this)
-
+![](https://github.com/huijianpzh/GAN-etc/blob/master/VAE/latent-space/manifold-epoch-100-network2.png)
 ### The latent codes of MNIST dataset
 The latent codes are obtained with the MNIST dataset as input.
 The z is computed as 
 ``` z_mean + torch.exp(z_logvar/2.)*epsilon ```.
+ 
+ 
+ 
+![](https://github.com/huijianpzh/GAN-etc/blob/master/VAE/latent-space/scattered_image-epoch-100-network2.jpg)
 
 
 
