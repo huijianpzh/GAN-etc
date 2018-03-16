@@ -26,7 +26,7 @@ The z is computed as
 
 
 
-During coding, we has read some codes from
+During coding, we have read some codes from
 * [Fast Forward Labs](https://github.com/fastforwardlabs/vae-tf)
 * [hwalsuklee](https://github.com/hwalsuklee/tensorflow-mnist-VAE)
 
