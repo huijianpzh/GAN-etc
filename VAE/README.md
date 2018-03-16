@@ -1,4 +1,4 @@
-# An implemantation of VAE
+# An implemantation of VAE (with pytorch)
 
 ## Introduction
 We use pytorch to write a VAE.
