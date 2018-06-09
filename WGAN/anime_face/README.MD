@@ -4,6 +4,10 @@ This is an implementation of WGAN to generate the anime faces.
 I try to use WGAN here to generate the anime faces here.
 And the network architecture is DCGAN. 
 
+#### Enviroment
+pytorch 0.4.0
+Anaconda python 3.6.4
+
 #### Data
 You can find the [data](https://github.com/chenyuntc/pytorch-book/tree/master/chapter7-GAN%E7%94%9F%E6%88%90%E5%8A%A8%E6%BC%AB%E5%A4%B4%E5%83%8F) here and download it.
 
