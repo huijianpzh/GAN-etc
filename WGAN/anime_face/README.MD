@@ -23,3 +23,4 @@ This is the result after about 150 epochs.
 * [chapter7-GAN生成动漫头像](https://github.com/chenyuntc/pytorch-book/tree/master/chapter7-GAN%E7%94%9F%E6%88%90%E5%8A%A8%E6%BC%AB%E5%A4%B4%E5%83%8F)
 
 If you have any question, please contact me.
+h.j.
